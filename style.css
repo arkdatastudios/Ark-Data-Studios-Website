@@ -1,0 +1,117 @@
+:root{
+    --ff: "EB+Garamond";
+    --colorbackground: #F3CFC6;
+    --colorheader: #F9A995;
+    --colortext: #000000;
+    --h1: var(--ff);
+    --h1spacing: -.025em; /* .4px/16 = .025em */
+    --aspacing: .5em; /* .4px/16 = .025em */
+    --portal-bottom: 15%;
+}
+body{
+    background: var(--colorbackground);
+    color: var(--colortext);
+    height: 100%;
+}
+header{
+  margin: 0 auto;
+  width: 90%;
+  max-width: 3840px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+a{
+  font-family: monospace !important;
+  margin: 0;
+  font-size: 1.85em; /* 29.6px/16 = 1.85em */
+  letter-spacing: var(--aspacing);
+  color: var(--colorheader);
+}
+.note-text-box{
+  font-family: "Akkurat", Arial, sans-serif !important;
+  width: 40em; /* 640px/16 = 40em */
+  height: 10em; /* 160px/16 = 10em */
+  text-wrap: balance;
+  right: 1.75rem;
+  padding-top: 2%; 
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5em; /* 29.6px/16 = 1.85em */
+}
+.portals{
+  display: inline-flexbox;
+  bottom: 90px;
+  right: 90px;
+  top: 0px;
+  left: 0px;
+}
+.portal-1{
+  position: absolute;
+  bottom: var(--portal-bottom);
+  left: 40%;
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  transition: box-shadow .2s;
+  border-radius: 2px;
+  display: flex;
+  margin: auto;
+  
+
+  &:active {
+    cursor: move;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+  }
+}
+.portal-2{
+  position: absolute;
+  bottom: var(--portal-bottom);
+  left: 10%;
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  transition: box-shadow .2s;
+  border-radius: 2px;
+  display: flex;
+  margin: auto;
+  
+
+  &:active {
+    cursor: move;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+  }
+}
+.portal-3{
+  position: absolute;
+  bottom: var(--portal-bottom);
+  left: 70%;
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  transition: box-shadow .2s;
+  border-radius: 2px;
+  display: flex;
+  margin: auto;
+  
+
+  &:active {
+    cursor: move;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+  }
+}
+.description{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.certified{
+  position: fixed;
+  left: 49%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  display: flex;
+}

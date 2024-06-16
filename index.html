@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARK DATA STUDIOS</title>
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery UI Library -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- jQuery UI CSS (for styles) -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <style>
+        .drag-me {
+            width: 100px;
+            height: 100px;
+            cursor: grab;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header: Navigation  bar at the top of the screen -->
+    <section>
+        <header>
+            <a class="inspo" href="https://www.pinupmagazine.org/articles/dave-free-interview" target="_blank">inspo</a>
+            <a class="linkedin" href="https://www.linkedin.com/company/arkdatastudios" target="_blank">linkedin</a>
+            <a class="contact" href="https://www.linkedin.com/in/noah-pitts/" target="_blank">contact</a>
+        </header>
+        <div class = "space-buffer">&nbsp;</div>
+    </section>
+
+
+    <!-- note-text-box: A note from Me to You. --> 
+    <section>
+        <main>
+            <div class ="note-text-box">
+                <h1>ARK DATA STUDIOS is an at-service company.</h1>
+                <h2><em>Thank you</em> for visiting.</h2>
+                <h3>It means the world to me.</h3>
+                <h3>-Noah</h3>
+            </div>
+        </main>    
+    </section>
+
+    <!-- The portals (draggable art that leads to the pages for my projects) -->
+    <div class="portals">
+    <section>
+        <div class="portal-1">
+            <span>
+                <a href="Portals/At-Service.html">
+                    <img draggable="false" src="/media/1-100.png" width="300" height="300" class="pics" alt="The First Logo">
+                </a>
+                
+            </span>
+        </div>
+
+        <div class="portal-2">
+            <span>
+                <a href="Portals/Company.html">
+                    <img draggable="false" src="/media/3-100.png" width="300" height="300" class="pics" alt="The Third Logo">
+                </a>
+            </span>
+        </div>
+
+        <div class="portal-3">
+            <span>
+                <a href="Portals/Work.html">
+                    <img draggable="false" src="/media/10-100.png" width="300" height="300" class="pics" alt="The Tenth Logo">
+                </a>
+            </span>
+        </div>
+    </section>
+        </div>
+
+    <!-- section: sign off -->
+    <section>
+        <div class="certified">© 2024 ARK DATA STUDIOS</div>
+    </section>
+
+    <!-- JavaScript for the page interaction. Also, this is my first JavaScript Code! -->
+    <script src="homepage.js"></script>
+
+</body>
