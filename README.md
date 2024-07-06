@@ -4,6 +4,8 @@ The website is currently [Pre-alpha](https://en.wikipedia.org/wiki/Software_rele
 
 Reach out if you would like to know more, and be on the lookout for updates as I build this out!
 
+Talk Soon.
+
 -Noah
 
 ![](https://github.com/arkdatastudios/Ark-Data-Studios-Website/blob/main/media/12-100.png)
