@@ -6,7 +6,7 @@
     --h1: var(--ff);
     --h1spacing: -.025em; /* .4px/16 = .025em */
     --aspacing: .5em; /* .4px/16 = .025em */
-    --portal-bottom: 15%;
+    --portal-bottom: 30%;
 }
 body{
     background: var(--colorbackground);
