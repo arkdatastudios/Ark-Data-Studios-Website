@@ -1,0 +1,33 @@
+{
+    "version": "29389",
+    "format": "profile",
+    "design": {
+      "theme": "dark",
+      "animation": "stars"
+    },
+    "data": {
+      "metadata": {
+        "title": "Page Metadata Title",
+        "description": "Page metadata description"
+      },
+      "header": {
+        "image": {
+          "src": "source-url-to-image",
+          "alt": "Alternative image text"
+        },
+        "bio": "Profile page bio"
+      },
+      "content": [
+        {
+          "type": "button",
+          "attributes": {
+            "style": "primary",
+            "url": "button-url",
+            "target": "_self"
+          },
+          "value": "Button Text"
+        }
+      ]
+    }
+  }
+  
