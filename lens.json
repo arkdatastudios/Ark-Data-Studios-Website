@@ -2,20 +2,20 @@
     "version": "29389",
     "format": "profile",
     "design": {
-      "theme": "dark",
+      "theme": "lofi",
       "animation": "stars"
     },
     "data": {
       "metadata": {
-        "title": "Page Metadata Title",
-        "description": "Page metadata description"
+        "title": "@arkdatastudios",
+        "description": "LENS profile for @arkdatastudios"
       },
       "header": {
         "image": {
-          "src": "source-url-to-image",
-          "alt": "Alternative image text"
+          "src": "media/1-100.png",
+          "alt": "The First Logo"
         },
-        "bio": "Profile page bio"
+        "bio": "Digital Prescence."
       },
       "content": [
         {
