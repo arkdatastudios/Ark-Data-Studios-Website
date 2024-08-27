@@ -1,0 +1,60 @@
+{
+    "version": "29389",
+    "format": "profile",
+    "design": {
+      "theme": "lofi",
+      "animation": "stars"
+    },
+    "data": {
+      "metadata": {
+        "title": "@arkdatastudios",
+        "description": "LENS profile for @arkdatastudios"
+      },
+      "header": {
+        "image": {
+          "src": "https://cdn.jsdelivr.net/gh/arkdatastudios/Ark-Data-Studios-Website@latest/lens/11-100.png",
+          "alt": "The Eleventh Logo"
+        },
+        "bio": "Digital Prescence."
+      },
+      "content": [
+        {
+          "type": "button",
+          "attributes": {
+            "style": "primary",
+            "url": "https://github.com/arkdatastudios",
+            "target": "_blank"
+          },
+          "value": "GitHub"
+        },
+        {
+          "type": "button",
+          "attributes": {
+            "style": "primary",
+            "url": "https://arkdatastudios.com/",
+            "target": "_blank"
+          },
+          "value": "ARK DATA STUDIOS"
+        },
+        {
+          "type": "button",
+          "attributes": {
+            "style": "primary",
+            "url": "https://www.linkedin.com/in/ark-data-studios/",
+            "target": "_blank"
+          },
+          "value": "LinkedIn"
+        },
+        {
+          "type": "button",
+          "attributes": {
+            "style": "primary",
+            "url": "https://handsonkeys.info/",
+            "target": "_blank"
+          },
+          "value": "HANDS ON KEYS"
+        }
+      ]
+    }
+  }
+  
