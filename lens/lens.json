@@ -6,7 +6,7 @@
 		"animation": "stars"
 	},
 	"metadata": {
-		"title": "@arkdatastudios.com",
+		"title": "ARK DATA STUDIOS",
 		"description": "LENS profile for @arkdatastudios.com"
 	},
 	"components": {
@@ -15,7 +15,7 @@
 				"src": "https://cdn.jsdelivr.net/gh/arkdatastudios/Ark-Data-Studios-Website@latest/lens/11-100.png",
 				"alt": "The Eleventh Logo"
 			},
-			"bio": "Digital Prescence."
+			"bio": "A Cloud covers the Studio."
 		},
 		"blocks": [
 			{
@@ -53,6 +53,15 @@
 					"target": "_blank"
 				},
 				"value": "HANDS ON KEYS"
+			},
+						{
+				"type": "button",
+				"attributes": {
+					"style": "primary",
+					"url": "https://www.youtube.com/@Parquet773",
+					"target": "_blank"
+				},
+				"value": "Sim Racing: @Parquet773 "
 			}
 		]
 	}
