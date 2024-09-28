@@ -15,7 +15,7 @@
 				"src": "https://cdn.jsdelivr.net/gh/arkdatastudios/Ark-Data-Studios-Website@latest/lens/11-100.png",
 				"alt": "The Eleventh Logo"
 			},
-			"bio": "A Cloud covers the Studio."
+			"bio": "The Sole Proprietor"
 		},
 		"blocks": [
 			{
@@ -61,7 +61,7 @@
 					"url": "https://www.youtube.com/@Parquet773",
 					"target": "_blank"
 				},
-				"value": "Sim Racing: @Parquet773 "
+				"value": "Parquet773"
 			}
 		]
 	}
