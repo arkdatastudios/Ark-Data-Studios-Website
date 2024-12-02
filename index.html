@@ -11,84 +11,151 @@
     <!-- jQuery UI CSS (for styles) -->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <style>
-        .drag-me {
-            width: 100px;
-            height: 100px;
-            cursor: grab;
+        /* General styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+            box-sizing: border-box;
+        }
+
+        /* Header styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10%;
+            background-color: #F3CFC6;
+            color: #F9A995;
+            box-sizing: border-box;
+        }
+
+        header a {
+            color: #F9A995;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 1.5em;
+        }
+
+        .space-buffer {
+            height: 20px;
+        }
+
+        /* Portals (images) */
+        .portals {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .portal-1, .portal-2, .portal-3 {
+            flex: 1 1 100%; /* Default to full width on small screens */
+            display: flex;
+            justify-content: center;
+        }
+
+        .pics {
+            width: 100%;
+            height: auto;
+            max-width: 300px; /* Limit max size of images */
+        }
+
+        /* Social links styling */
+        .socials {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .portal-1, .portal-2, .portal-3 {
+                flex: 1 1 100%; /* Stack the portals vertically */
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header a {
+                font-size: 1.5em;
+            }
+
+            .socials {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .space-buffer {
+                height: 10px;
+            }
         }
     </style>
     <link rel="stylesheet" href="style.css">
-    <link rel = "icon" href = "media/23-100.png">
+    <link rel="icon" href="media/23-100.png">
 </head>
 <body>
-    <!-- header: Navigation  bar at the top of the screen -->
+    <!-- Header: Navigation bar at the top of the screen -->
     <section>
         <header>
-            <a class="inspo" href="https://www.pinupmagazine.org/articles/dave-free-interview" target="_blank">inspo</a>
-            <a class="contact" href="https://noahpitts.studio/contact/" target="_blank">contact</a>
+            <a class="inspo" href="https://www.pinupmagazine.org/articles/dave-free-interview" target="_blank">Inspo</a>
+            <a class="contact" href="https://noahpitts.studio/contact/" target="_blank">Contact</a>
         </header>
-        <div class = "space-buffer">&nbsp;</div>
+        <div class="space-buffer"></div>
     </section>
-
-
-    <!-- note-text-box: A note from Me to You. 
-    <section>
-        <main>
-            <div class ="note-text-box">
-                <h1>ARK DATA STUDIOS is an at-service company.</h1>
-                <h2><em>Thank you</em> for visiting.</h2>
-                <h3>It means the world to me.</h3>
-                <h3>-Noah</h3>
-            </div>
-        </main>    
-    </section>
-    --> 
 
     <!-- The portals (draggable art that leads to the pages for my projects) -->
     <div class="portals">
-    <section>
-        <div class="portal-1">
-            <span>
-                <a href="./at-service">
-                    <img draggable="false" src="/media/1-100.png" width="300" height="300" class="pics" alt="The First Logo">
-                </a>
-                
-            </span>
-        </div>
+        <section>
+            <div class="portal-1">
+                <span>
+                    <a href="./at-service.html">
+                        <img draggable="false" src="/media/1-100.png" class="pics" alt="The First Logo">
+                    </a>
+                </span>
+            </div>
 
-        <div class="portal-2">
-            <span>
-                <a href="./company">
-                    <img draggable="false" src="/media/3-100.png" width="300" height="300" class="pics" alt="The Third Logo">
-                </a>
-            </span>
-        </div>
+            <div class="portal-2">
+                <span>
+                    <a href="./company.html">
+                        <img draggable="false" src="/media/10-100.png" class="pics" alt="The Tenth Logo">
+                    </a>
+                </span>
+            </div>
 
-        <div class="portal-3">
-            <span>
-                <a href="./work">
-                    <img draggable="false" src="/media/10-100.png" width="300" height="300" class="pics" alt="The Tenth Logo">
-                </a>
-            </span>
-        </div>
-    </section>
-        </div>
+            <div class="portal-3">
+                <span>
+                    <a href="./work.html">
+                        <img draggable="false" src="/media/11-100.png" class="pics" alt="The Eleventh Logo">
+                    </a>
+                </span>
+            </div>
+        </section>
+    </div>
 
-    <!-- section: sign off -->
+    <!-- Section: Social Media Links -->
     <section>
         <div class="socials">
-            <a  href="https://www.instagram.com/arkdatastudios/" target="_blank" rel="noreferrer">instagram</a>
-            <a > / </a>
-            <a  href="https://www.linkedin.com/company/arkdatastudios" target="_blank" rel="noreferrer">linkedin</a>
-            <a > / </a>
-            <a  href="https://medium.com/@arkdatastudios" target="_blank" rel="noreferrer">medium</a>
-            <a > / </a>
-            <a href="https://www.youtube.com/@ArkDataStudios" target="_blank" rel="noreferrer">youtube</a>
+            <a href="https://www.instagram.com/arkdatastudios/" target="_blank" rel="noreferrer">Instagram</a>
+            <a>/</a>
+            <a href="https://www.linkedin.com/company/arkdatastudios" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a>/</a>
+            <a href="https://medium.com/@arkdatastudios" target="_blank" rel="noreferrer">Medium</a>
+            <a>/</a>
+            <a href="https://www.youtube.com/@ArkDataStudios" target="_blank" rel="noreferrer">YouTube</a>
         </div>
-     <!--   <div class="certified">© 2024 ARK DATA STUDIOS</div> -->
     </section>
 
-    <!-- JavaScript for the page interaction. Also, this is my first JavaScript Code! -->
+    <!-- JavaScript for the page interaction -->
     <script src="/js/homepage.js"></script>
 
 </body>
+</html>
